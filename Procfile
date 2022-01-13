@@ -1,2 +1,2 @@
-web: gunicorn f4cast:app
+web: gunicorn api:app
 
