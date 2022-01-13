@@ -1,10 +1,3 @@
-import time
-from flask import Flask
+from app import app
 
-app = Flask(__name__)
-
-@app.route('/api/time')
-
-def get_current_time():
-    return {'local_time': time.ctime(time.time())}
 
